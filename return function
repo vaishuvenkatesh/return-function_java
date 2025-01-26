@@ -1,0 +1,22 @@
+public class Main{
+    String Student1(){
+        return"vaishu";
+}
+String Student2(){
+    return "venkat";
+}
+String Student3(){
+    return "vijaya";
+}
+public static void main(String[]args){
+    Main obj=new Main();
+    String name1=obj.Student1();
+    System.out.println(name1);
+    String name2=obj.Student2();
+    System.out.println(name2);
+    String name3=obj.Student3();
+    System.out.println(name3);
+    
+}
+    
+}
